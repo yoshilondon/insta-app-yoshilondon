@@ -1,0 +1,21 @@
+.profilePage
+  .container
+    .profilePage_image
+      = image_tag 'myavatar.png'
+    .profilePage_dataContainer
+      .profilePage_dataContainer_inner
+        %p 44
+        %p Posts
+      .profilePage_dataContainer_inner
+        %p 44
+        %p Followers
+      .profilePage_dataContainer_inner
+        %p 44
+        %p Following
+    .profilePage_actionButton
+      = link_to 'Edit', edit_profile_path
+    .profilePage_imgBox 
+      = image_tag 'img3.png'
+      %div
+        = image_tag 'img2.png'
+        = image_tag 'img1.png'
