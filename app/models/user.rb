@@ -26,6 +26,10 @@ class User < ApplicationRecord
   
   has_one :profile, dependent: :destroy
 
+  def display_name
+    self.name
+  end
+
   validates :name, presence: true, uniqueness: true
   validates :profile, length: { maximum: 200 }
 end
