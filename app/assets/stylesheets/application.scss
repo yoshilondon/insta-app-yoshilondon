@@ -10,11 +10,64 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
  */
+
+ @import "bootstrap";
 
  @import './common';
  @import './devise';
  @import './profile';
+ 
+.container{
+  max-width: 1000px;
+}
+.logo{
+  a i.fa{
+  margin-top: 30px;
+  }
+}
+.navbar{
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+}
+.navbar-brand{
+  display: flex;
+}
+.logo{
+  a p.title {
+  font-size: 25px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 10px;
+  }
+}
+.user-section{
+  a{
+    padding-left: 10px;
+  }
+  i.fa{
+    color: #000000d4;
+  }
+}
+// .search-form{
+//   input{
+//     font-size: 13px;
+//     text-align: center;
+//   }
+// }
+.footer{
+  font-size: 12px;
+  padding-top: 30px;
+  ul{
+    padding-left: 0;
+    > li{
+      display: inline;
+      padding-right: 15px;
+      color: #003569;
+    }
+  }
+  p{
+    color: #999;
+  }
+}
  

@@ -24,6 +24,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'annotate'
 gem 'devise'
 gem 'hamlit'
+gem 'bootstrap', '~> 4.1.1'
+gem 'jquery-rails'
 
 # Use Active Storage variant
 gem 'image_processing', '~> 1.2'
