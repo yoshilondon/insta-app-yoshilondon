@@ -7,6 +7,8 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require('jquery')
+require('test.js')
 
 //= require jquery3
 //= require popper
@@ -24,12 +26,16 @@ require("@rails/actiontext")
 
 import $ from 'jquery'
 import axios from 'axios'
+import { csrfToken } from 'rails-ujs'
 
-document.addEventListener('DOMContentLoaded', () => {
-  $('.profilePage_user_displayName').on('click', () => {
-    axios.get('/')
-      .then((response) => {
-        console.log(response)
-      })
-  })
-})
+axios.defaults.headers.common['X-CSRF-Token'] = csrfToken()
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   $('.profilePage_image').on('click', () => {    
+//     axios.get('/')
+//       .then((response) => {
+//         console.log(response)
+//       })
+//   });
+// });
+

@@ -6,18 +6,18 @@
     height: 76.88px;
     border-radius: 50%;
     margin: 0 auto 46px;
-    &::before{
-      content: '';
-      position: absolute;
-      width: 84px;
-      height: 84px;
-      border: 1px solid #E91E63;
-      box-sizing: border-box;
-      border-radius: 50%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-    }
+    // &::before{
+    //   content: '';
+    //   position: absolute;
+    //   width: 84px;
+    //   height: 84px;
+    //   border: 1px solid #E91E63;
+    //   box-sizing: border-box;
+    //   border-radius: 50%;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%,-50%);
+    // }
   }
 
   &_user_displayName{
