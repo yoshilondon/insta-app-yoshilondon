@@ -1,5 +1,5 @@
 // app/javascript/test.js
 
-$(function() {
-  console.log("OK");
-});
+// $(function() {
+//   console.log("OK");
+// });
