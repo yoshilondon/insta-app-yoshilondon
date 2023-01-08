@@ -6,18 +6,36 @@
     height: 76.88px;
     border-radius: 50%;
     margin: 0 auto 46px;
-    &::before{
-      content: '';
-      position: absolute;
-      width: 84px;
-      height: 84px;
-      border: 1px solid #E91E63;
-      box-sizing: border-box;
-      border-radius: 50%;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%,-50%);
-    }
+    // &::before{
+    //   content: '';
+    //   position: absolute;
+    //   width: 84px;
+    //   height: 84px;
+    //   border: 1px solid #E91E63;
+    //   box-sizing: border-box;
+    //   border-radius: 50%;
+    //   top: 50%;
+    //   left: 50%;
+    //   transform: translate(-50%,-50%);
+    // }
+  }
+
+  &_user_displayName{
+    // position: absolute;
+    // height: 24px;
+    // left: 38.13%;
+    // right: 38.4%;
+    // top: calc(57% - 24px/2 - 348px);
+
+    font-family: 'Poppins Medium';
+    font-size: 16px;
+    line-height: 19px;
+    // display: flex;
+    // align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+
+    color: #333A42;
   }
 
 

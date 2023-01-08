@@ -2,3 +2,23 @@
 %p Find me in app/views/home/index.html.haml
 
 = link_to 'ログアウト', destroy_user_session_path, method: :delete
+
+= link_to 'edit', edit_profile_path(@profile)
+
+-# %p Test
+-# :javascript
+-#   $(document).ready(function() {
+-#     $("p").text("well done!!");
+-#   });
+
+-# .container
+-#   %h1 Bootstrap
+-#   %a.btn.btn-primary{:href => "#", :role => "button"} Link
+-#   %button.btn.btn-primary{:type => "submit"} Button
+-#   %input.btn.btn-primary{:type => "button", :value => "Input"}/
+-#   %input.btn.btn-primary{:type => "submit", :value => "Submit"}/
+-#   %input.btn.btn-primary{:type => "reset", :value => "Reset"}/
+-#   %h1 jQuery
+-#   %p#hoge 赤色になるよ
+-#   :javascript
+-#     $("#hoge").css("color","red")
